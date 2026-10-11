@@ -1,0 +1,40 @@
+name: Update HSR Timetable
+
+on:
+  schedule:
+    # 台灣時間 04:00 ~ 22:00 每一小時整點執行一次
+    # (台灣 UTC+8 對應 UTC: 20:00~23:00 與 00:00~14:00)
+    - cron: '0 0-14,20-23 * * *'
+  workflow_dispatch: # 支援在 GitHub 網頁手動點擊「Run workflow」立即測試
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 簽出專案代碼 (Checkout)
+        uses: actions/checkout@v4
+
+      - name: 設定 Python 環境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: 安裝相依套件
+        run: |
+          pip install requests
+
+      - name: 執行高鐵爬蟲更新
+        env:
+          TDX_CLIENT_ID: ${{ secrets.TDX_CLIENT_ID }}
+          TDX_CLIENT_SECRET: ${{ secrets.TDX_CLIENT_SECRET }}
+        run: |
+          python fetch_hsr.py
+
+      - name: 發布最新資料至 GitHub Pages (gh-pages 分支)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
