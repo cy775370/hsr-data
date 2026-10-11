@@ -1,39 +1,56 @@
 import os
+import sys
 import json
 import requests
 from datetime import datetime
 
-CLIENT_ID = os.environ.get("TDX_CLIENT_ID")
-CLIENT_SECRET = os.environ.get("TDX_CLIENT_SECRET")
+CLIENT_ID = os.environ.get("TDX_CLIENT_ID", "").strip()
+CLIENT_SECRET = os.environ.get("TDX_CLIENT_SECRET", "").strip()
 
 def get_access_token():
-    token_url = "https://tdx.transportdata.taiwan.gov.tw/auth/realms/TDXConnect/protocol/openid-connect/token"
+    # TDX OAuth 2.0 Token 官方端點
+    token_url = "https://tdx.transportdata.tw/auth/realms/TDXConnect/protocol/openid-connect/token"
     headers = {"Content-Type": "application/x-www-form-urlencoded"}
     data = {
         "grant_type": "client_credentials",
         "client_id": CLIENT_ID,
         "client_secret": CLIENT_SECRET
     }
-    res = requests.post(token_url, headers=headers, data=data, timeout=15)
-    res.raise_for_status()
-    return res.json()["access_token"]
+    try:
+        res = requests.post(token_url, headers=headers, data=data, timeout=15)
+        if res.status_code != 200:
+            print(f"[錯誤] TDX Token 申請失敗！HTTP 狀態碼: {res.status_code}")
+            print(f"[詳細內容] {res.text}")
+            print("請檢查 GitHub Secrets 的 TDX_CLIENT_ID 與 TDX_CLIENT_SECRET 是否正確無誤！")
+            sys.exit(1)
+        return res.json()["access_token"]
+    except requests.exceptions.RequestException as e:
+        print(f"[連線錯誤] 無法連線至 TDX 認證伺服器: {e}")
+        sys.exit(1)
 
 def fetch_today_hsr(token):
-    # 抓取高鐵當日全線時刻表 (含臨時加班車)
-    api_url = "https://tdx.transportdata.taiwan.gov.tw/api/basic/v2/Rail/THSR/DailyTimetable/Today?%24format=JSON"
+    # 抓取高鐵當日全線時刻表 (含加班車)
+    api_url = "https://tdx.transportdata.tw/api/basic/v2/Rail/THSR/DailyTimetable/Today?%24format=JSON"
     headers = {
         "Authorization": f"Bearer {token}",
         "Accept": "application/json"
     }
-    res = requests.get(api_url, headers=headers, timeout=20)
-    res.raise_for_status()
-    return res.json()
+    try:
+        res = requests.get(api_url, headers=headers, timeout=20)
+        if res.status_code != 200:
+            print(f"[錯誤] 下載時刻表失敗！HTTP 狀態碼: {res.status_code}")
+            print(f"[詳細內容] {res.text}")
+            sys.exit(1)
+        return res.json()
+    except requests.exceptions.RequestException as e:
+        print(f"[連線錯誤] 下載時刻表連線異常: {e}")
+        sys.exit(1)
 
 def parse_and_clean(raw_data):
     clean_trains = []
     for item in raw_data:
         train_info = item.get("DailyTrainInfo", {})
-        train_no = train_info.get("TrainNo", "")
+        train_no = str(train_info.get("TrainNo", ""))
         direction_num = train_info.get("Direction", 0)  # 0: 南下, 1: 北上
         start_station = train_info.get("StartingStationName", {}).get("Zh_tw", "")
         end_station = train_info.get("EndingStationName", {}).get("Zh_tw", "")
@@ -64,7 +81,7 @@ def parse_and_clean(raw_data):
             "stops": stops
         })
 
-    # 排序：依車次排序
+    # 排序：依車次號碼排序
     clean_trains.sort(key=lambda x: x["trainNo"])
 
     return {
@@ -75,14 +92,16 @@ def parse_and_clean(raw_data):
 
 if __name__ == "__main__":
     if not CLIENT_ID or not CLIENT_SECRET:
-        raise ValueError("請先設定環境變數 TDX_CLIENT_ID 與 TDX_CLIENT_SECRET！")
+        print("[錯誤] 找不到 TDX_CLIENT_ID 或 TDX_CLIENT_SECRET 環境變數！")
+        print("請確認是否已在 GitHub 儲存庫的 Settings -> Secrets and variables -> Actions 中正確填入！")
+        sys.exit(1)
 
     print("正在向 TDX 申請 Access Token...")
     token = get_access_token()
-    print("正在下載今日高鐵最新時刻表 (含加班車)...")
+    print("Token 申請成功！正在下載今日高鐵最新時刻表 (含加班車)...")
     raw = fetch_today_hsr(token)
     cleaned = parse_and_clean(raw)
-    
+
     os.makedirs("public", exist_ok=True)
     with open("public/today_hsr.json", "w", encoding="utf-8") as f:
         json.dump(cleaned, f, ensure_ascii=False, indent=2)
