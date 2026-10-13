@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-13 14:20:40",
+  "updatedAt": "2026-10-13 14:57:11",
   "totalTrains": 149,
   "trains": [
     {
@@ -1315,7 +1315,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
@@ -1677,7 +1677,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -1731,7 +1731,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
@@ -1785,7 +1785,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -1947,7 +1947,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -2001,7 +2001,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -3297,7 +3297,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
@@ -3459,7 +3459,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
@@ -3621,7 +3621,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -3675,7 +3675,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
@@ -3729,7 +3729,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
@@ -3783,7 +3783,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -3837,7 +3837,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -3999,7 +3999,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -4053,7 +4053,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -4269,7 +4269,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -4377,7 +4377,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -4588,7 +4588,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "左營",
@@ -4726,7 +4726,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -4864,7 +4864,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -5071,7 +5071,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
@@ -6106,7 +6106,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -6244,7 +6244,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -6382,7 +6382,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "8-12",
       "stops": [
         {
           "station": "南港",
@@ -6520,7 +6520,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "南港",
@@ -7530,7 +7530,7 @@
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
-      "freeCars": "10-12",
+      "freeCars": "9-12",
       "stops": [
         {
           "station": "左營",
