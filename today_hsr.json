@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19 23:25:52",
+  "updatedAt": "2026-10-20 00:35:23",
   "totalTrains": 149,
   "trains": [
     {
@@ -4657,7 +4657,7 @@
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
-      "freeCars": "9-12",
+      "freeCars": "10-12",
       "stops": [
         {
           "station": "南港",
