@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21 20:26:28",
+  "updatedAt": "2026-10-21 21:27:57",
   "totalFeeders": 1105,
   "feeders": [
     {
@@ -6794,7 +6794,7 @@
       "destinationStation": "豐富",
       "departureTime": "07:15",
       "arrivalTime": "07:18",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -6828,7 +6828,7 @@
       "destinationStation": "竹南",
       "departureTime": "07:19",
       "arrivalTime": "07:29",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -6857,7 +6857,7 @@
       "destinationStation": "台中",
       "departureTime": "06:01",
       "arrivalTime": "06:13",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -6906,7 +6906,7 @@
       "destinationStation": "新烏日",
       "departureTime": "05:51",
       "arrivalTime": "06:00",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -18241,7 +18241,7 @@
       "destinationStation": "沙崙",
       "departureTime": "06:34",
       "arrivalTime": "06:57",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "往沙崙方向月台",
       "stops": [
         {
