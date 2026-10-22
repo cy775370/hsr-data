@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 06:34:52",
+  "updatedAt": "2026-10-22 07:42:04",
   "totalFeeders": 1105,
   "feeders": [
     {
@@ -869,7 +869,7 @@
       "destinationStation": "苗栗",
       "departureTime": "15:41",
       "arrivalTime": "15:47",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -893,7 +893,7 @@
       "destinationStation": "豐富",
       "departureTime": "15:29",
       "arrivalTime": "15:39",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -975,7 +975,7 @@
       "destinationStation": "苗栗",
       "departureTime": "16:44",
       "arrivalTime": "16:49",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -999,7 +999,7 @@
       "destinationStation": "豐富",
       "departureTime": "16:34",
       "arrivalTime": "16:43",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -1134,7 +1134,7 @@
       "destinationStation": "豐富",
       "departureTime": "13:13",
       "arrivalTime": "13:17",
-      "delayMinutes": 0,
+      "delayMinutes": 4,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -1158,7 +1158,7 @@
       "destinationStation": "竹南",
       "departureTime": "13:18",
       "arrivalTime": "13:28",
-      "delayMinutes": 0,
+      "delayMinutes": 4,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -1187,7 +1187,7 @@
       "destinationStation": "苗栗",
       "departureTime": "18:45",
       "arrivalTime": "18:50",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -1211,7 +1211,7 @@
       "destinationStation": "豐富",
       "departureTime": "18:34",
       "arrivalTime": "18:43",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -1240,7 +1240,7 @@
       "destinationStation": "豐富",
       "departureTime": "14:18",
       "arrivalTime": "14:22",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -1264,7 +1264,7 @@
       "destinationStation": "竹南",
       "departureTime": "14:23",
       "arrivalTime": "14:33",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -8795,7 +8795,7 @@
       "destinationStation": "苗栗",
       "departureTime": "12:06",
       "arrivalTime": "12:10",
-      "delayMinutes": 7,
+      "delayMinutes": 0,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -8829,7 +8829,7 @@
       "destinationStation": "豐富",
       "departureTime": "11:56",
       "arrivalTime": "12:05",
-      "delayMinutes": 7,
+      "delayMinutes": 0,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -8858,7 +8858,7 @@
       "destinationStation": "新烏日",
       "departureTime": "13:21",
       "arrivalTime": "13:33",
-      "delayMinutes": 7,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -8907,7 +8907,7 @@
       "destinationStation": "彰化",
       "departureTime": "13:34",
       "arrivalTime": "13:44",
-      "delayMinutes": 7,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -9233,7 +9233,7 @@
       "destinationStation": "豐富",
       "departureTime": "13:41",
       "arrivalTime": "13:44",
-      "delayMinutes": 3,
+      "delayMinutes": 0,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -9267,7 +9267,7 @@
       "destinationStation": "竹南",
       "departureTime": "13:45",
       "arrivalTime": "13:55",
-      "delayMinutes": 3,
+      "delayMinutes": 0,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -9296,7 +9296,7 @@
       "destinationStation": "台中",
       "departureTime": "12:27",
       "arrivalTime": "12:39",
-      "delayMinutes": 3,
+      "delayMinutes": 0,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -9345,7 +9345,7 @@
       "destinationStation": "新烏日",
       "departureTime": "12:17",
       "arrivalTime": "12:26",
-      "delayMinutes": 3,
+      "delayMinutes": 0,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -9535,7 +9535,7 @@
       "destinationStation": "苗栗",
       "departureTime": "14:08",
       "arrivalTime": "14:12",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -9569,7 +9569,7 @@
       "destinationStation": "豐富",
       "departureTime": "13:57",
       "arrivalTime": "14:07",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -9598,7 +9598,7 @@
       "destinationStation": "新烏日",
       "departureTime": "15:19",
       "arrivalTime": "15:30",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -9647,7 +9647,7 @@
       "destinationStation": "彰化",
       "departureTime": "15:31",
       "arrivalTime": "15:41",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -9681,7 +9681,7 @@
       "destinationStation": "豐富",
       "departureTime": "14:32",
       "arrivalTime": "14:35",
-      "delayMinutes": 7,
+      "delayMinutes": 5,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -9715,7 +9715,7 @@
       "destinationStation": "竹南",
       "departureTime": "14:36",
       "arrivalTime": "14:46",
-      "delayMinutes": 7,
+      "delayMinutes": 5,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -9744,7 +9744,7 @@
       "destinationStation": "台中",
       "departureTime": "13:20",
       "arrivalTime": "13:31",
-      "delayMinutes": 7,
+      "delayMinutes": 5,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -9793,7 +9793,7 @@
       "destinationStation": "新烏日",
       "departureTime": "13:10",
       "arrivalTime": "13:19",
-      "delayMinutes": 7,
+      "delayMinutes": 5,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -9973,7 +9973,7 @@
       "destinationStation": "豐富",
       "departureTime": "15:43",
       "arrivalTime": "15:46",
-      "delayMinutes": 4,
+      "delayMinutes": 9,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -10007,7 +10007,7 @@
       "destinationStation": "竹南",
       "departureTime": "15:47",
       "arrivalTime": "15:56",
-      "delayMinutes": 4,
+      "delayMinutes": 9,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -10036,7 +10036,7 @@
       "destinationStation": "台中",
       "departureTime": "14:29",
       "arrivalTime": "14:41",
-      "delayMinutes": 4,
+      "delayMinutes": 9,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -10085,7 +10085,7 @@
       "destinationStation": "新烏日",
       "departureTime": "14:13",
       "arrivalTime": "14:24",
-      "delayMinutes": 4,
+      "delayMinutes": 9,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -10265,7 +10265,7 @@
       "destinationStation": "豐富",
       "departureTime": "16:36",
       "arrivalTime": "16:39",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -10299,7 +10299,7 @@
       "destinationStation": "竹南",
       "departureTime": "16:40",
       "arrivalTime": "16:50",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -10328,7 +10328,7 @@
       "destinationStation": "台中",
       "departureTime": "15:20",
       "arrivalTime": "15:32",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -10377,7 +10377,7 @@
       "destinationStation": "新烏日",
       "departureTime": "15:06",
       "arrivalTime": "15:16",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -13981,7 +13981,7 @@
       "destinationStation": "台中",
       "departureTime": "16:25",
       "arrivalTime": "16:37",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -14030,7 +14030,7 @@
       "destinationStation": "新烏日",
       "departureTime": "16:19",
       "arrivalTime": "16:23",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -14739,7 +14739,7 @@
       "destinationStation": "新烏日",
       "departureTime": "20:23",
       "arrivalTime": "20:30",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -14768,7 +14768,7 @@
       "destinationStation": "彰化",
       "departureTime": "20:32",
       "arrivalTime": "20:41",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -16108,7 +16108,7 @@
       "destinationStation": "台中",
       "departureTime": "15:06",
       "arrivalTime": "15:18",
-      "delayMinutes": 4,
+      "delayMinutes": 0,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -16157,7 +16157,7 @@
       "destinationStation": "新烏日",
       "departureTime": "14:55",
       "arrivalTime": "15:04",
-      "delayMinutes": 4,
+      "delayMinutes": 0,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -16191,7 +16191,7 @@
       "destinationStation": "新烏日",
       "departureTime": "09:54",
       "arrivalTime": "10:06",
-      "delayMinutes": 13,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -16240,7 +16240,7 @@
       "destinationStation": "彰化",
       "departureTime": "10:07",
       "arrivalTime": "10:17",
-      "delayMinutes": 13,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -16357,7 +16357,7 @@
       "destinationStation": "新烏日",
       "departureTime": "10:48",
       "arrivalTime": "10:59",
-      "delayMinutes": 7,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -16406,7 +16406,7 @@
       "destinationStation": "彰化",
       "departureTime": "11:00",
       "arrivalTime": "11:10",
-      "delayMinutes": 7,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -16440,7 +16440,7 @@
       "destinationStation": "台中",
       "departureTime": "16:47",
       "arrivalTime": "16:58",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -16489,7 +16489,7 @@
       "destinationStation": "新烏日",
       "departureTime": "16:37",
       "arrivalTime": "16:46",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -16523,7 +16523,7 @@
       "destinationStation": "新烏日",
       "departureTime": "11:54",
       "arrivalTime": "12:06",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -16572,7 +16572,7 @@
       "destinationStation": "彰化",
       "departureTime": "12:09",
       "arrivalTime": "12:20",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -16606,7 +16606,7 @@
       "destinationStation": "台中",
       "departureTime": "17:50",
       "arrivalTime": "18:03",
-      "delayMinutes": 0,
+      "delayMinutes": 2,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -16655,7 +16655,7 @@
       "destinationStation": "新烏日",
       "departureTime": "17:40",
       "arrivalTime": "17:49",
-      "delayMinutes": 0,
+      "delayMinutes": 2,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -16689,7 +16689,7 @@
       "destinationStation": "新烏日",
       "departureTime": "12:46",
       "arrivalTime": "12:57",
-      "delayMinutes": 4,
+      "delayMinutes": 2,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -16738,7 +16738,7 @@
       "destinationStation": "彰化",
       "departureTime": "12:58",
       "arrivalTime": "13:08",
-      "delayMinutes": 4,
+      "delayMinutes": 2,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -17021,7 +17021,7 @@
       "destinationStation": "新烏日",
       "departureTime": "14:55",
       "arrivalTime": "15:07",
-      "delayMinutes": 2,
+      "delayMinutes": 6,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -17070,7 +17070,7 @@
       "destinationStation": "彰化",
       "departureTime": "15:12",
       "arrivalTime": "15:23",
-      "delayMinutes": 2,
+      "delayMinutes": 6,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -19815,7 +19815,7 @@
       "destinationStation": "沙崙",
       "departureTime": "14:07",
       "arrivalTime": "14:31",
-      "delayMinutes": 6,
+      "delayMinutes": 0,
       "platformHint": "往沙崙方向月台",
       "stops": [
         {
@@ -20070,7 +20070,7 @@
       "destinationStation": "台南",
       "departureTime": "15:22",
       "arrivalTime": "15:43",
-      "delayMinutes": 0,
+      "delayMinutes": 2,
       "platformHint": "沙崙站月台",
       "stops": [
         {
@@ -20119,7 +20119,7 @@
       "destinationStation": "沙崙",
       "departureTime": "15:40",
       "arrivalTime": "16:04",
-      "delayMinutes": 0,
+      "delayMinutes": 1,
       "platformHint": "往沙崙方向月台",
       "stops": [
         {
