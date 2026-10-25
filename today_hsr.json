@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-10-25 14:23:40",
-  "totalTrains": 192,
+  "updatedAt": "2026-10-25 20:20:27",
+  "totalTrains": 197,
   "trains": [
     {
       "trainNo": "0108",
@@ -1393,7 +1393,7 @@
         },
         {
           "station": "彰化",
-          "arrivalTime": "23:00",
+          "arrivalTime": "22:59",
           "departureTime": "23:01"
         },
         {
@@ -2452,7 +2452,7 @@
         },
         {
           "station": "桃園",
-          "arrivalTime": "11:07",
+          "arrivalTime": "11:08",
           "departureTime": "11:10"
         },
         {
@@ -2614,7 +2614,7 @@
         },
         {
           "station": "桃園",
-          "arrivalTime": "12:07",
+          "arrivalTime": "12:08",
           "departureTime": "12:10"
         },
         {
@@ -2776,7 +2776,7 @@
         },
         {
           "station": "桃園",
-          "arrivalTime": "13:08",
+          "arrivalTime": "13:07",
           "departureTime": "13:10"
         },
         {
@@ -4770,7 +4770,7 @@
         },
         {
           "station": "雲林",
-          "arrivalTime": "08:39",
+          "arrivalTime": "08:40",
           "departureTime": "08:41"
         },
         {
@@ -6702,7 +6702,7 @@
         },
         {
           "station": "雲林",
-          "arrivalTime": "22:40",
+          "arrivalTime": "22:39",
           "departureTime": "22:41"
         },
         {
@@ -6746,7 +6746,7 @@
         },
         {
           "station": "雲林",
-          "arrivalTime": "22:15",
+          "arrivalTime": "22:14",
           "departureTime": "22:16"
         },
         {
@@ -6982,45 +6982,6 @@
       ]
     },
     {
-      "trainNo": "1217",
-      "direction": "SOUTH",
-      "start": "南港",
-      "end": "左營",
-      "freeCars": "10-12",
-      "stops": [
-        {
-          "station": "南港",
-          "arrivalTime": "10:40",
-          "departureTime": "10:40"
-        },
-        {
-          "station": "台北",
-          "arrivalTime": "10:48",
-          "departureTime": "10:51"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "10:58",
-          "departureTime": "10:59"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "11:38",
-          "departureTime": "11:40"
-        },
-        {
-          "station": "台南",
-          "arrivalTime": "12:17",
-          "departureTime": "12:18"
-        },
-        {
-          "station": "左營",
-          "arrivalTime": "12:30",
-          "departureTime": "12:30"
-        }
-      ]
-    },
-    {
       "trainNo": "1218",
       "direction": "NORTH",
       "start": "左營",
@@ -7060,7 +7021,46 @@
       ]
     },
     {
-      "trainNo": "1221",
+      "trainNo": "1222",
+      "direction": "NORTH",
+      "start": "左營",
+      "end": "南港",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "左營",
+          "arrivalTime": "11:15",
+          "departureTime": "11:15"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "11:27",
+          "departureTime": "11:28"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "12:06",
+          "departureTime": "12:08"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "12:46",
+          "departureTime": "12:47"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "12:54",
+          "departureTime": "12:57"
+        },
+        {
+          "station": "南港",
+          "arrivalTime": "13:05",
+          "departureTime": "13:05"
+        }
+      ]
+    },
+    {
+      "trainNo": "1225",
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
@@ -7068,33 +7068,33 @@
       "stops": [
         {
           "station": "南港",
-          "arrivalTime": "11:40",
-          "departureTime": "11:40"
-        },
-        {
-          "station": "台北",
-          "arrivalTime": "11:48",
-          "departureTime": "11:51"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "11:58",
-          "departureTime": "11:59"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "12:38",
+          "arrivalTime": "12:40",
           "departureTime": "12:40"
         },
         {
+          "station": "台北",
+          "arrivalTime": "12:48",
+          "departureTime": "12:51"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "12:58",
+          "departureTime": "12:59"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "13:38",
+          "departureTime": "13:40"
+        },
+        {
           "station": "台南",
-          "arrivalTime": "13:17",
-          "departureTime": "13:18"
+          "arrivalTime": "14:17",
+          "departureTime": "14:18"
         },
         {
           "station": "左營",
-          "arrivalTime": "13:30",
-          "departureTime": "13:30"
+          "arrivalTime": "14:30",
+          "departureTime": "14:30"
         }
       ]
     },
@@ -7684,7 +7684,46 @@
       ]
     },
     {
-      "trainNo": "1309",
+      "trainNo": "1264",
+      "direction": "NORTH",
+      "start": "左營",
+      "end": "南港",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "左營",
+          "arrivalTime": "21:40",
+          "departureTime": "21:40"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "21:51",
+          "departureTime": "21:53"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "22:28",
+          "departureTime": "22:30"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "23:10",
+          "departureTime": "23:11"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "23:18",
+          "departureTime": "23:21"
+        },
+        {
+          "station": "南港",
+          "arrivalTime": "23:30",
+          "departureTime": "23:30"
+        }
+      ]
+    },
+    {
+      "trainNo": "1305",
       "direction": "SOUTH",
       "start": "南港",
       "end": "左營",
@@ -7692,107 +7731,107 @@
       "stops": [
         {
           "station": "南港",
-          "arrivalTime": "09:50",
-          "departureTime": "09:50"
+          "arrivalTime": "07:50",
+          "departureTime": "07:50"
         },
         {
           "station": "台北",
-          "arrivalTime": "09:58",
-          "departureTime": "10:01"
+          "arrivalTime": "07:58",
+          "departureTime": "08:01"
         },
         {
           "station": "桃園",
-          "arrivalTime": "10:18",
-          "departureTime": "10:20"
+          "arrivalTime": "08:18",
+          "departureTime": "08:20"
         },
         {
           "station": "台中",
-          "arrivalTime": "10:52",
-          "departureTime": "10:54"
+          "arrivalTime": "08:52",
+          "departureTime": "08:54"
         },
         {
           "station": "彰化",
-          "arrivalTime": "11:05",
-          "departureTime": "11:06"
+          "arrivalTime": "09:05",
+          "departureTime": "09:06"
         },
         {
           "station": "雲林",
-          "arrivalTime": "11:16",
-          "departureTime": "11:17"
+          "arrivalTime": "09:16",
+          "departureTime": "09:17"
         },
         {
           "station": "嘉義",
-          "arrivalTime": "11:28",
-          "departureTime": "11:29"
+          "arrivalTime": "09:28",
+          "departureTime": "09:29"
         },
         {
           "station": "台南",
-          "arrivalTime": "11:45",
-          "departureTime": "11:47"
+          "arrivalTime": "09:45",
+          "departureTime": "09:47"
         },
         {
           "station": "左營",
-          "arrivalTime": "12:00",
-          "departureTime": "12:00"
+          "arrivalTime": "10:00",
+          "departureTime": "10:00"
         }
       ]
     },
     {
-      "trainNo": "1310",
-      "direction": "NORTH",
-      "start": "左營",
-      "end": "南港",
+      "trainNo": "1311",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "左營",
       "freeCars": "10-12",
       "stops": [
         {
-          "station": "左營",
-          "arrivalTime": "10:45",
-          "departureTime": "10:45"
-        },
-        {
-          "station": "台南",
-          "arrivalTime": "10:56",
-          "departureTime": "10:57"
-        },
-        {
-          "station": "嘉義",
-          "arrivalTime": "11:17",
-          "departureTime": "11:19"
-        },
-        {
-          "station": "雲林",
-          "arrivalTime": "11:30",
-          "departureTime": "11:31"
-        },
-        {
-          "station": "彰化",
-          "arrivalTime": "11:40",
-          "departureTime": "11:41"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "11:51",
-          "departureTime": "11:53"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "12:25",
-          "departureTime": "12:27"
+          "station": "南港",
+          "arrivalTime": "10:50",
+          "departureTime": "10:50"
         },
         {
           "station": "台北",
-          "arrivalTime": "12:44",
+          "arrivalTime": "10:58",
+          "departureTime": "11:01"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "11:18",
+          "departureTime": "11:20"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "11:52",
+          "departureTime": "11:54"
+        },
+        {
+          "station": "彰化",
+          "arrivalTime": "12:05",
+          "departureTime": "12:06"
+        },
+        {
+          "station": "雲林",
+          "arrivalTime": "12:16",
+          "departureTime": "12:17"
+        },
+        {
+          "station": "嘉義",
+          "arrivalTime": "12:28",
+          "departureTime": "12:29"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "12:45",
           "departureTime": "12:47"
         },
         {
-          "station": "南港",
-          "arrivalTime": "12:55",
-          "departureTime": "12:55"
+          "station": "左營",
+          "arrivalTime": "13:00",
+          "departureTime": "13:00"
         }
       ]
     },
     {
-      "trainNo": "1318",
+      "trainNo": "1316",
       "direction": "NORTH",
       "start": "左營",
       "end": "南港",
@@ -7800,102 +7839,210 @@
       "stops": [
         {
           "station": "左營",
-          "arrivalTime": "14:45",
-          "departureTime": "14:45"
+          "arrivalTime": "13:45",
+          "departureTime": "13:45"
         },
         {
           "station": "台南",
-          "arrivalTime": "14:56",
-          "departureTime": "14:57"
+          "arrivalTime": "13:56",
+          "departureTime": "13:57"
         },
         {
           "station": "嘉義",
-          "arrivalTime": "15:17",
-          "departureTime": "15:19"
+          "arrivalTime": "14:17",
+          "departureTime": "14:19"
         },
         {
           "station": "雲林",
-          "arrivalTime": "15:30",
-          "departureTime": "15:31"
+          "arrivalTime": "14:30",
+          "departureTime": "14:31"
         },
         {
           "station": "彰化",
-          "arrivalTime": "15:40",
-          "departureTime": "15:41"
+          "arrivalTime": "14:40",
+          "departureTime": "14:41"
         },
         {
           "station": "台中",
-          "arrivalTime": "15:51",
-          "departureTime": "15:53"
+          "arrivalTime": "14:51",
+          "departureTime": "14:53"
         },
         {
           "station": "桃園",
-          "arrivalTime": "16:25",
-          "departureTime": "16:27"
+          "arrivalTime": "15:25",
+          "departureTime": "15:27"
         },
         {
           "station": "台北",
-          "arrivalTime": "16:44",
-          "departureTime": "16:47"
+          "arrivalTime": "15:44",
+          "departureTime": "15:47"
         },
         {
           "station": "南港",
-          "arrivalTime": "16:55",
-          "departureTime": "16:55"
+          "arrivalTime": "15:55",
+          "departureTime": "15:55"
         }
       ]
     },
     {
-      "trainNo": "1320",
-      "direction": "NORTH",
-      "start": "左營",
-      "end": "南港",
+      "trainNo": "1321",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "左營",
       "freeCars": "10-12",
       "stops": [
         {
-          "station": "左營",
-          "arrivalTime": "15:45",
-          "departureTime": "15:45"
-        },
-        {
-          "station": "台南",
-          "arrivalTime": "15:56",
-          "departureTime": "15:57"
-        },
-        {
-          "station": "嘉義",
-          "arrivalTime": "16:17",
-          "departureTime": "16:19"
-        },
-        {
-          "station": "雲林",
-          "arrivalTime": "16:30",
-          "departureTime": "16:31"
-        },
-        {
-          "station": "彰化",
-          "arrivalTime": "16:40",
-          "departureTime": "16:41"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "16:51",
-          "departureTime": "16:53"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "17:25",
-          "departureTime": "17:27"
+          "station": "南港",
+          "arrivalTime": "15:50",
+          "departureTime": "15:50"
         },
         {
           "station": "台北",
-          "arrivalTime": "17:44",
+          "arrivalTime": "15:58",
+          "departureTime": "16:01"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "16:18",
+          "departureTime": "16:20"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "16:52",
+          "departureTime": "16:54"
+        },
+        {
+          "station": "彰化",
+          "arrivalTime": "17:05",
+          "departureTime": "17:06"
+        },
+        {
+          "station": "雲林",
+          "arrivalTime": "17:15",
+          "departureTime": "17:17"
+        },
+        {
+          "station": "嘉義",
+          "arrivalTime": "17:28",
+          "departureTime": "17:29"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "17:45",
           "departureTime": "17:47"
         },
         {
+          "station": "左營",
+          "arrivalTime": "18:00",
+          "departureTime": "18:00"
+        }
+      ]
+    },
+    {
+      "trainNo": "1322",
+      "direction": "NORTH",
+      "start": "左營",
+      "end": "南港",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "左營",
+          "arrivalTime": "16:45",
+          "departureTime": "16:45"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "16:56",
+          "departureTime": "16:57"
+        },
+        {
+          "station": "嘉義",
+          "arrivalTime": "17:17",
+          "departureTime": "17:19"
+        },
+        {
+          "station": "雲林",
+          "arrivalTime": "17:30",
+          "departureTime": "17:31"
+        },
+        {
+          "station": "彰化",
+          "arrivalTime": "17:40",
+          "departureTime": "17:41"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "17:51",
+          "departureTime": "17:53"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "18:25",
+          "departureTime": "18:27"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "18:44",
+          "departureTime": "18:47"
+        },
+        {
           "station": "南港",
-          "arrivalTime": "17:55",
-          "departureTime": "17:55"
+          "arrivalTime": "18:55",
+          "departureTime": "18:55"
+        }
+      ]
+    },
+    {
+      "trainNo": "1323",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "左營",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "南港",
+          "arrivalTime": "16:50",
+          "departureTime": "16:50"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "16:58",
+          "departureTime": "17:01"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "17:18",
+          "departureTime": "17:20"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "17:52",
+          "departureTime": "17:54"
+        },
+        {
+          "station": "彰化",
+          "arrivalTime": "18:05",
+          "departureTime": "18:06"
+        },
+        {
+          "station": "雲林",
+          "arrivalTime": "18:15",
+          "departureTime": "18:17"
+        },
+        {
+          "station": "嘉義",
+          "arrivalTime": "18:28",
+          "departureTime": "18:29"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "18:45",
+          "departureTime": "18:47"
+        },
+        {
+          "station": "左營",
+          "arrivalTime": "19:00",
+          "departureTime": "19:00"
         }
       ]
     },
@@ -8008,56 +8155,56 @@
       ]
     },
     {
-      "trainNo": "1328",
-      "direction": "NORTH",
-      "start": "左營",
-      "end": "南港",
-      "freeCars": "9-12",
+      "trainNo": "1329",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "左營",
+      "freeCars": "10-12",
       "stops": [
         {
-          "station": "左營",
-          "arrivalTime": "19:45",
-          "departureTime": "19:45"
-        },
-        {
-          "station": "台南",
-          "arrivalTime": "19:56",
-          "departureTime": "19:57"
-        },
-        {
-          "station": "嘉義",
-          "arrivalTime": "20:17",
-          "departureTime": "20:19"
-        },
-        {
-          "station": "雲林",
-          "arrivalTime": "20:30",
-          "departureTime": "20:31"
-        },
-        {
-          "station": "彰化",
-          "arrivalTime": "20:40",
-          "departureTime": "20:41"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "20:51",
-          "departureTime": "20:53"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "21:25",
-          "departureTime": "21:27"
+          "station": "南港",
+          "arrivalTime": "19:50",
+          "departureTime": "19:50"
         },
         {
           "station": "台北",
-          "arrivalTime": "21:44",
+          "arrivalTime": "19:58",
+          "departureTime": "20:01"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "20:18",
+          "departureTime": "20:20"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "20:52",
+          "departureTime": "20:54"
+        },
+        {
+          "station": "彰化",
+          "arrivalTime": "21:05",
+          "departureTime": "21:06"
+        },
+        {
+          "station": "雲林",
+          "arrivalTime": "21:16",
+          "departureTime": "21:17"
+        },
+        {
+          "station": "嘉義",
+          "arrivalTime": "21:28",
+          "departureTime": "21:29"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "21:45",
           "departureTime": "21:47"
         },
         {
-          "station": "南港",
-          "arrivalTime": "21:55",
-          "departureTime": "21:55"
+          "station": "左營",
+          "arrivalTime": "22:00",
+          "departureTime": "22:00"
         }
       ]
     },
@@ -8224,134 +8371,46 @@
       ]
     },
     {
-      "trainNo": "1505",
-      "direction": "SOUTH",
-      "start": "南港",
-      "end": "台中",
+      "trainNo": "1510",
+      "direction": "NORTH",
+      "start": "台中",
+      "end": "南港",
       "freeCars": "10-12",
       "stops": [
         {
-          "station": "南港",
-          "arrivalTime": "07:25",
-          "departureTime": "07:25"
-        },
-        {
-          "station": "台北",
-          "arrivalTime": "07:33",
-          "departureTime": "07:36"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "07:45",
-          "departureTime": "07:46"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "07:59",
-          "departureTime": "08:01"
-        },
-        {
-          "station": "新竹",
-          "arrivalTime": "08:11",
-          "departureTime": "08:12"
+          "station": "台中",
+          "arrivalTime": "07:12",
+          "departureTime": "07:12"
         },
         {
           "station": "苗栗",
-          "arrivalTime": "08:23",
-          "departureTime": "08:25"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "08:42",
-          "departureTime": "08:42"
-        }
-      ]
-    },
-    {
-      "trainNo": "1509",
-      "direction": "SOUTH",
-      "start": "南港",
-      "end": "台中",
-      "freeCars": "10-12",
-      "stops": [
-        {
-          "station": "南港",
-          "arrivalTime": "08:25",
-          "departureTime": "08:25"
-        },
-        {
-          "station": "台北",
-          "arrivalTime": "08:33",
-          "departureTime": "08:36"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "08:45",
-          "departureTime": "08:46"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "08:59",
-          "departureTime": "09:01"
+          "arrivalTime": "07:30",
+          "departureTime": "07:31"
         },
         {
           "station": "新竹",
-          "arrivalTime": "09:11",
-          "departureTime": "09:12"
-        },
-        {
-          "station": "苗栗",
-          "arrivalTime": "09:23",
-          "departureTime": "09:25"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "09:42",
-          "departureTime": "09:42"
-        }
-      ]
-    },
-    {
-      "trainNo": "1513",
-      "direction": "SOUTH",
-      "start": "南港",
-      "end": "台中",
-      "freeCars": "10-12",
-      "stops": [
-        {
-          "station": "南港",
-          "arrivalTime": "09:25",
-          "departureTime": "09:25"
-        },
-        {
-          "station": "台北",
-          "arrivalTime": "09:33",
-          "departureTime": "09:36"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "09:45",
-          "departureTime": "09:46"
+          "arrivalTime": "07:43",
+          "departureTime": "07:45"
         },
         {
           "station": "桃園",
-          "arrivalTime": "09:59",
-          "departureTime": "10:01"
+          "arrivalTime": "07:56",
+          "departureTime": "07:58"
         },
         {
-          "station": "新竹",
-          "arrivalTime": "10:11",
-          "departureTime": "10:12"
+          "station": "板橋",
+          "arrivalTime": "08:09",
+          "departureTime": "08:10"
         },
         {
-          "station": "苗栗",
-          "arrivalTime": "10:23",
-          "departureTime": "10:25"
+          "station": "台北",
+          "arrivalTime": "08:18",
+          "departureTime": "08:21"
         },
         {
-          "station": "台中",
-          "arrivalTime": "10:42",
-          "departureTime": "10:42"
+          "station": "南港",
+          "arrivalTime": "08:30",
+          "departureTime": "08:30"
         }
       ]
     },
@@ -8488,7 +8547,51 @@
       ]
     },
     {
-      "trainNo": "1533",
+      "trainNo": "1526",
+      "direction": "NORTH",
+      "start": "台中",
+      "end": "南港",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "台中",
+          "arrivalTime": "11:04",
+          "departureTime": "11:04"
+        },
+        {
+          "station": "苗栗",
+          "arrivalTime": "11:22",
+          "departureTime": "11:24"
+        },
+        {
+          "station": "新竹",
+          "arrivalTime": "11:38",
+          "departureTime": "11:39"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "11:49",
+          "departureTime": "11:51"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "12:04",
+          "departureTime": "12:05"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "12:13",
+          "departureTime": "12:16"
+        },
+        {
+          "station": "南港",
+          "arrivalTime": "12:25",
+          "departureTime": "12:25"
+        }
+      ]
+    },
+    {
+      "trainNo": "1529",
       "direction": "SOUTH",
       "start": "南港",
       "end": "台中",
@@ -8496,38 +8599,82 @@
       "stops": [
         {
           "station": "南港",
-          "arrivalTime": "14:25",
-          "departureTime": "14:25"
+          "arrivalTime": "13:25",
+          "departureTime": "13:25"
         },
         {
           "station": "台北",
-          "arrivalTime": "14:33",
-          "departureTime": "14:36"
+          "arrivalTime": "13:33",
+          "departureTime": "13:36"
         },
         {
           "station": "板橋",
-          "arrivalTime": "14:45",
-          "departureTime": "14:46"
+          "arrivalTime": "13:45",
+          "departureTime": "13:46"
         },
         {
           "station": "桃園",
-          "arrivalTime": "14:59",
-          "departureTime": "15:01"
+          "arrivalTime": "13:59",
+          "departureTime": "14:01"
         },
         {
           "station": "新竹",
-          "arrivalTime": "15:11",
-          "departureTime": "15:12"
+          "arrivalTime": "14:11",
+          "departureTime": "14:12"
         },
         {
           "station": "苗栗",
-          "arrivalTime": "15:23",
-          "departureTime": "15:25"
+          "arrivalTime": "14:23",
+          "departureTime": "14:25"
         },
         {
           "station": "台中",
-          "arrivalTime": "15:42",
-          "departureTime": "15:42"
+          "arrivalTime": "14:42",
+          "departureTime": "14:42"
+        }
+      ]
+    },
+    {
+      "trainNo": "1530",
+      "direction": "NORTH",
+      "start": "台中",
+      "end": "南港",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "台中",
+          "arrivalTime": "12:04",
+          "departureTime": "12:04"
+        },
+        {
+          "station": "苗栗",
+          "arrivalTime": "12:22",
+          "departureTime": "12:24"
+        },
+        {
+          "station": "新竹",
+          "arrivalTime": "12:38",
+          "departureTime": "12:39"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "12:49",
+          "departureTime": "12:51"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "13:04",
+          "departureTime": "13:05"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "13:13",
+          "departureTime": "13:16"
+        },
+        {
+          "station": "南港",
+          "arrivalTime": "13:25",
+          "departureTime": "13:25"
         }
       ]
     },
@@ -8752,50 +8899,6 @@
       ]
     },
     {
-      "trainNo": "1545",
-      "direction": "SOUTH",
-      "start": "南港",
-      "end": "台中",
-      "freeCars": "10-12",
-      "stops": [
-        {
-          "station": "南港",
-          "arrivalTime": "17:25",
-          "departureTime": "17:25"
-        },
-        {
-          "station": "台北",
-          "arrivalTime": "17:33",
-          "departureTime": "17:36"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "17:45",
-          "departureTime": "17:46"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "17:59",
-          "departureTime": "18:01"
-        },
-        {
-          "station": "新竹",
-          "arrivalTime": "18:11",
-          "departureTime": "18:12"
-        },
-        {
-          "station": "苗栗",
-          "arrivalTime": "18:23",
-          "departureTime": "18:25"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "18:42",
-          "departureTime": "18:42"
-        }
-      ]
-    },
-    {
       "trainNo": "1546",
       "direction": "NORTH",
       "start": "台中",
@@ -8836,6 +8939,50 @@
           "station": "南港",
           "arrivalTime": "17:25",
           "departureTime": "17:25"
+        }
+      ]
+    },
+    {
+      "trainNo": "1547",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "台中",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "南港",
+          "arrivalTime": "17:45",
+          "departureTime": "17:45"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "17:53",
+          "departureTime": "17:56"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "18:03",
+          "departureTime": "18:04"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "18:15",
+          "departureTime": "18:17"
+        },
+        {
+          "station": "新竹",
+          "arrivalTime": "18:27",
+          "departureTime": "18:28"
+        },
+        {
+          "station": "苗栗",
+          "arrivalTime": "18:39",
+          "departureTime": "18:40"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "18:56",
+          "departureTime": "18:56"
         }
       ]
     },
@@ -9016,6 +9163,50 @@
       ]
     },
     {
+      "trainNo": "1557",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "台中",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "南港",
+          "arrivalTime": "20:25",
+          "departureTime": "20:25"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "20:33",
+          "departureTime": "20:36"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "20:45",
+          "departureTime": "20:46"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "20:59",
+          "departureTime": "21:01"
+        },
+        {
+          "station": "新竹",
+          "arrivalTime": "21:11",
+          "departureTime": "21:12"
+        },
+        {
+          "station": "苗栗",
+          "arrivalTime": "21:23",
+          "departureTime": "21:25"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "21:42",
+          "departureTime": "21:42"
+        }
+      ]
+    },
+    {
       "trainNo": "1558",
       "direction": "NORTH",
       "start": "台中",
@@ -9104,50 +9295,6 @@
       ]
     },
     {
-      "trainNo": "1563",
-      "direction": "SOUTH",
-      "start": "南港",
-      "end": "台中",
-      "freeCars": "10-12",
-      "stops": [
-        {
-          "station": "南港",
-          "arrivalTime": "21:55",
-          "departureTime": "21:55"
-        },
-        {
-          "station": "台北",
-          "arrivalTime": "22:02",
-          "departureTime": "22:05"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "22:13",
-          "departureTime": "22:14"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "22:26",
-          "departureTime": "22:28"
-        },
-        {
-          "station": "新竹",
-          "arrivalTime": "22:38",
-          "departureTime": "22:39"
-        },
-        {
-          "station": "苗栗",
-          "arrivalTime": "22:50",
-          "departureTime": "22:52"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "23:10",
-          "departureTime": "23:10"
-        }
-      ]
-    },
-    {
       "trainNo": "1566",
       "direction": "NORTH",
       "start": "台中",
@@ -9192,56 +9339,46 @@
       ]
     },
     {
-      "trainNo": "1607",
-      "direction": "SOUTH",
-      "start": "南港",
-      "end": "左營",
+      "trainNo": "1570",
+      "direction": "NORTH",
+      "start": "台中",
+      "end": "南港",
       "freeCars": "10-12",
       "stops": [
         {
-          "station": "南港",
-          "arrivalTime": "07:10",
-          "departureTime": "07:10"
+          "station": "台中",
+          "arrivalTime": "21:51",
+          "departureTime": "21:51"
         },
         {
-          "station": "台北",
-          "arrivalTime": "07:18",
-          "departureTime": "07:21"
-        },
-        {
-          "station": "板橋",
-          "arrivalTime": "07:28",
-          "departureTime": "07:29"
-        },
-        {
-          "station": "桃園",
-          "arrivalTime": "07:41",
-          "departureTime": "07:43"
+          "station": "苗栗",
+          "arrivalTime": "22:08",
+          "departureTime": "22:10"
         },
         {
           "station": "新竹",
-          "arrivalTime": "07:53",
-          "departureTime": "07:56"
+          "arrivalTime": "22:21",
+          "departureTime": "22:23"
         },
         {
-          "station": "台中",
-          "arrivalTime": "08:23",
-          "departureTime": "08:25"
+          "station": "桃園",
+          "arrivalTime": "22:34",
+          "departureTime": "22:36"
         },
         {
-          "station": "嘉義",
-          "arrivalTime": "08:48",
-          "departureTime": "08:50"
+          "station": "板橋",
+          "arrivalTime": "22:48",
+          "departureTime": "22:49"
         },
         {
-          "station": "台南",
-          "arrivalTime": "09:06",
-          "departureTime": "09:07"
+          "station": "台北",
+          "arrivalTime": "22:58",
+          "departureTime": "23:01"
         },
         {
-          "station": "左營",
-          "arrivalTime": "09:20",
-          "departureTime": "09:20"
+          "station": "南港",
+          "arrivalTime": "23:10",
+          "departureTime": "23:10"
         }
       ]
     },
@@ -9512,6 +9649,94 @@
           "station": "南港",
           "arrivalTime": "22:45",
           "departureTime": "22:45"
+        }
+      ]
+    },
+    {
+      "trainNo": "1691",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "左營",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "南港",
+          "arrivalTime": "21:10",
+          "departureTime": "21:10"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "21:18",
+          "departureTime": "21:21"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "21:28",
+          "departureTime": "21:29"
+        },
+        {
+          "station": "桃園",
+          "arrivalTime": "21:41",
+          "departureTime": "21:43"
+        },
+        {
+          "station": "新竹",
+          "arrivalTime": "21:53",
+          "departureTime": "21:56"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "22:23",
+          "departureTime": "22:25"
+        },
+        {
+          "station": "嘉義",
+          "arrivalTime": "22:48",
+          "departureTime": "22:50"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "23:06",
+          "departureTime": "23:07"
+        },
+        {
+          "station": "左營",
+          "arrivalTime": "23:20",
+          "departureTime": "23:20"
+        }
+      ]
+    },
+    {
+      "trainNo": "1985",
+      "direction": "SOUTH",
+      "start": "南港",
+      "end": "左營",
+      "freeCars": "10-12",
+      "stops": [
+        {
+          "station": "南港",
+          "arrivalTime": "22:00",
+          "departureTime": "22:00"
+        },
+        {
+          "station": "台北",
+          "arrivalTime": "22:07",
+          "departureTime": "22:10"
+        },
+        {
+          "station": "板橋",
+          "arrivalTime": "22:17",
+          "departureTime": "22:18"
+        },
+        {
+          "station": "台南",
+          "arrivalTime": "23:32",
+          "departureTime": "23:33"
+        },
+        {
+          "station": "左營",
+          "arrivalTime": "23:45",
+          "departureTime": "23:45"
         }
       ]
     }
