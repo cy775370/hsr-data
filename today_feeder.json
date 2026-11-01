@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01 14:32:20",
+  "updatedAt": "2026-11-01 20:30:14",
   "totalFeeders": 1105,
   "feeders": [
     {
@@ -1780,7 +1780,7 @@
       "destinationStation": "苗栗",
       "departureTime": "23:47",
       "arrivalTime": "23:52",
-      "delayMinutes": 2,
+      "delayMinutes": 0,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -1804,7 +1804,7 @@
       "destinationStation": "豐富",
       "departureTime": "23:37",
       "arrivalTime": "23:46",
-      "delayMinutes": 2,
+      "delayMinutes": 0,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -1886,7 +1886,7 @@
       "destinationStation": "豐富",
       "departureTime": "20:17",
       "arrivalTime": "20:21",
-      "delayMinutes": 5,
+      "delayMinutes": 0,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -1910,7 +1910,7 @@
       "destinationStation": "竹南",
       "departureTime": "20:22",
       "arrivalTime": "20:32",
-      "delayMinutes": 5,
+      "delayMinutes": 0,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -1939,7 +1939,7 @@
       "destinationStation": "豐富",
       "departureTime": "21:28",
       "arrivalTime": "21:32",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -1963,7 +1963,7 @@
       "destinationStation": "竹南",
       "departureTime": "21:33",
       "arrivalTime": "21:43",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -1992,7 +1992,7 @@
       "destinationStation": "豐富",
       "departureTime": "22:11",
       "arrivalTime": "22:15",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -2016,7 +2016,7 @@
       "destinationStation": "竹南",
       "departureTime": "22:16",
       "arrivalTime": "22:26",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -5814,79 +5814,6 @@
       ]
     },
     {
-      "trainNo": "區間快 2019",
-      "system": "TRA",
-      "routeId": "TXG_TRA_NORTH",
-      "mode": "TO_HSR",
-      "originStation": "台中",
-      "destinationStation": "新烏日",
-      "departureTime": "18:12",
-      "arrivalTime": "18:22",
-      "delayMinutes": 0,
-      "platformHint": "南下往新烏日月台",
-      "stops": [
-        {
-          "station": "大慶",
-          "arrivalTime": "18:17",
-          "departureTime": "18:18"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "18:10",
-          "departureTime": "18:12"
-        },
-        {
-          "station": "太原",
-          "arrivalTime": "18:05",
-          "departureTime": "18:06"
-        },
-        {
-          "station": "松竹",
-          "arrivalTime": "18:02",
-          "departureTime": "18:03"
-        },
-        {
-          "station": "豐原",
-          "arrivalTime": "17:50",
-          "departureTime": "17:52"
-        },
-        {
-          "station": "新烏日",
-          "arrivalTime": "18:22",
-          "departureTime": "18:33"
-        }
-      ]
-    },
-    {
-      "trainNo": "區間快 2019",
-      "system": "TRA",
-      "routeId": "TXG_TRA_SOUTH",
-      "mode": "TO_CITY",
-      "originStation": "新烏日",
-      "destinationStation": "彰化",
-      "departureTime": "18:33",
-      "arrivalTime": "18:42",
-      "delayMinutes": 0,
-      "platformHint": "新烏日南下月台",
-      "stops": [
-        {
-          "station": "彰化",
-          "arrivalTime": "18:42",
-          "departureTime": "18:44"
-        },
-        {
-          "station": "員林",
-          "arrivalTime": "18:57",
-          "departureTime": "18:58"
-        },
-        {
-          "station": "新烏日",
-          "arrivalTime": "18:22",
-          "departureTime": "18:33"
-        }
-      ]
-    },
-    {
       "trainNo": "區間快 2021",
       "system": "TRA",
       "routeId": "TXG_TRA_NORTH",
@@ -5955,6 +5882,64 @@
       ]
     },
     {
+      "trainNo": "區間快 2023",
+      "system": "TRA",
+      "routeId": "TXG_TRA_NORTH",
+      "mode": "TO_HSR",
+      "originStation": "台中",
+      "destinationStation": "新烏日",
+      "departureTime": "18:12",
+      "arrivalTime": "18:22",
+      "delayMinutes": 0,
+      "platformHint": "南下往新烏日月台",
+      "stops": [
+        {
+          "station": "大慶",
+          "arrivalTime": "18:17",
+          "departureTime": "18:18"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "18:12",
+          "departureTime": "18:12"
+        },
+        {
+          "station": "新烏日",
+          "arrivalTime": "18:22",
+          "departureTime": "18:33"
+        }
+      ]
+    },
+    {
+      "trainNo": "區間快 2023",
+      "system": "TRA",
+      "routeId": "TXG_TRA_SOUTH",
+      "mode": "TO_CITY",
+      "originStation": "新烏日",
+      "destinationStation": "彰化",
+      "departureTime": "18:33",
+      "arrivalTime": "18:42",
+      "delayMinutes": 0,
+      "platformHint": "新烏日南下月台",
+      "stops": [
+        {
+          "station": "彰化",
+          "arrivalTime": "18:42",
+          "departureTime": "18:44"
+        },
+        {
+          "station": "員林",
+          "arrivalTime": "18:57",
+          "departureTime": "18:58"
+        },
+        {
+          "station": "新烏日",
+          "arrivalTime": "18:22",
+          "departureTime": "18:33"
+        }
+      ]
+    },
+    {
       "trainNo": "區間快 2027",
       "system": "TRA",
       "routeId": "TXG_TRA_NORTH",
@@ -6009,69 +5994,6 @@
           "station": "新烏日",
           "arrivalTime": "19:24",
           "departureTime": "19:25"
-        }
-      ]
-    },
-    {
-      "trainNo": "區間快 2032",
-      "system": "TRA",
-      "routeId": "TXG_TRA_NORTH",
-      "mode": "TO_CITY",
-      "originStation": "新烏日",
-      "destinationStation": "台中",
-      "departureTime": "14:57",
-      "arrivalTime": "15:04",
-      "delayMinutes": 0,
-      "platformHint": "新烏日北上月台",
-      "stops": [
-        {
-          "station": "台中",
-          "arrivalTime": "15:04",
-          "departureTime": "15:08"
-        },
-        {
-          "station": "太原",
-          "arrivalTime": "15:12",
-          "departureTime": "15:13"
-        },
-        {
-          "station": "松竹",
-          "arrivalTime": "15:15",
-          "departureTime": "15:16"
-        },
-        {
-          "station": "豐原",
-          "arrivalTime": "15:26",
-          "departureTime": "15:27"
-        },
-        {
-          "station": "新烏日",
-          "arrivalTime": "14:53",
-          "departureTime": "14:57"
-        }
-      ]
-    },
-    {
-      "trainNo": "區間快 2032",
-      "system": "TRA",
-      "routeId": "TXG_TRA_SOUTH",
-      "mode": "TO_HSR",
-      "originStation": "彰化",
-      "destinationStation": "新烏日",
-      "departureTime": "14:45",
-      "arrivalTime": "14:53",
-      "delayMinutes": 0,
-      "platformHint": "北上往新烏日月台",
-      "stops": [
-        {
-          "station": "彰化",
-          "arrivalTime": "14:45",
-          "departureTime": "14:45"
-        },
-        {
-          "station": "新烏日",
-          "arrivalTime": "14:53",
-          "departureTime": "14:57"
         }
       ]
     },
@@ -11128,6 +11050,69 @@
       ]
     },
     {
+      "trainNo": "區間 2236",
+      "system": "TRA",
+      "routeId": "TXG_TRA_NORTH",
+      "mode": "TO_CITY",
+      "originStation": "新烏日",
+      "destinationStation": "台中",
+      "departureTime": "17:29",
+      "arrivalTime": "17:42",
+      "delayMinutes": 0,
+      "platformHint": "新烏日北上月台",
+      "stops": [
+        {
+          "station": "大慶",
+          "arrivalTime": "17:34",
+          "departureTime": "17:35"
+        },
+        {
+          "station": "五權",
+          "arrivalTime": "17:38",
+          "departureTime": "17:38"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "17:42",
+          "departureTime": "17:42"
+        },
+        {
+          "station": "新烏日",
+          "arrivalTime": "17:27",
+          "departureTime": "17:29"
+        }
+      ]
+    },
+    {
+      "trainNo": "區間 2236",
+      "system": "TRA",
+      "routeId": "TXG_TRA_SOUTH",
+      "mode": "TO_HSR",
+      "originStation": "彰化",
+      "destinationStation": "新烏日",
+      "departureTime": "17:17",
+      "arrivalTime": "17:27",
+      "delayMinutes": 0,
+      "platformHint": "北上往新烏日月台",
+      "stops": [
+        {
+          "station": "成功",
+          "arrivalTime": "17:23",
+          "departureTime": "17:24"
+        },
+        {
+          "station": "彰化",
+          "arrivalTime": "17:17",
+          "departureTime": "17:17"
+        },
+        {
+          "station": "新烏日",
+          "arrivalTime": "17:27",
+          "departureTime": "17:29"
+        }
+      ]
+    },
+    {
       "trainNo": "區間 2237",
       "system": "TRA",
       "routeId": "MLI_TRA_SOUTH",
@@ -11603,7 +11588,7 @@
       "destinationStation": "苗栗",
       "departureTime": "20:09",
       "arrivalTime": "20:13",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -11637,7 +11622,7 @@
       "destinationStation": "豐富",
       "departureTime": "19:58",
       "arrivalTime": "20:08",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -11666,7 +11651,7 @@
       "destinationStation": "新烏日",
       "departureTime": "21:23",
       "arrivalTime": "21:34",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -11715,7 +11700,7 @@
       "destinationStation": "彰化",
       "departureTime": "21:35",
       "arrivalTime": "21:45",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -11749,7 +11734,7 @@
       "destinationStation": "豐富",
       "departureTime": "20:45",
       "arrivalTime": "20:48",
-      "delayMinutes": 5,
+      "delayMinutes": 0,
       "platformHint": "北上往豐富方向月台",
       "stops": [
         {
@@ -11783,7 +11768,7 @@
       "destinationStation": "竹南",
       "departureTime": "20:49",
       "arrivalTime": "20:59",
-      "delayMinutes": 5,
+      "delayMinutes": 0,
       "platformHint": "豐富站北上月台",
       "stops": [
         {
@@ -11812,7 +11797,7 @@
       "destinationStation": "台中",
       "departureTime": "19:37",
       "arrivalTime": "19:49",
-      "delayMinutes": 5,
+      "delayMinutes": 0,
       "platformHint": "新烏日北上月台",
       "stops": [
         {
@@ -11861,7 +11846,7 @@
       "destinationStation": "新烏日",
       "departureTime": "19:21",
       "arrivalTime": "19:31",
-      "delayMinutes": 5,
+      "delayMinutes": 0,
       "platformHint": "北上往新烏日月台",
       "stops": [
         {
@@ -11895,7 +11880,7 @@
       "destinationStation": "新烏日",
       "departureTime": "21:49",
       "arrivalTime": "22:00",
-      "delayMinutes": 3,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -11944,7 +11929,7 @@
       "destinationStation": "彰化",
       "departureTime": "22:01",
       "arrivalTime": "22:11",
-      "delayMinutes": 3,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -11978,7 +11963,7 @@
       "destinationStation": "苗栗",
       "departureTime": "21:14",
       "arrivalTime": "21:18",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "豐富站南下月台",
       "stops": [
         {
@@ -12012,7 +11997,7 @@
       "destinationStation": "豐富",
       "departureTime": "21:04",
       "arrivalTime": "21:13",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "南下往豐富方向月台",
       "stops": [
         {
@@ -12041,7 +12026,7 @@
       "destinationStation": "新烏日",
       "departureTime": "22:22",
       "arrivalTime": "22:33",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -12090,7 +12075,7 @@
       "destinationStation": "彰化",
       "departureTime": "22:34",
       "arrivalTime": "22:44",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -12477,153 +12462,7 @@
       ]
     },
     {
-      "trainNo": "區間 2274",
-      "system": "TRA",
-      "routeId": "MLI_TRA_SOUTH",
-      "mode": "TO_HSR",
-      "originStation": "苗栗",
-      "destinationStation": "豐富",
-      "departureTime": "22:45",
-      "arrivalTime": "22:48",
-      "delayMinutes": 1,
-      "platformHint": "北上往豐富方向月台",
-      "stops": [
-        {
-          "station": "苗栗",
-          "arrivalTime": "22:44",
-          "departureTime": "22:45"
-        },
-        {
-          "station": "銅鑼",
-          "arrivalTime": "22:34",
-          "departureTime": "22:35"
-        },
-        {
-          "station": "三義",
-          "arrivalTime": "22:28",
-          "departureTime": "22:29"
-        },
-        {
-          "station": "豐富",
-          "arrivalTime": "22:48",
-          "departureTime": "22:49"
-        }
-      ]
-    },
-    {
-      "trainNo": "區間 2274",
-      "system": "TRA",
-      "routeId": "MLI_TRA_NORTH",
-      "mode": "TO_CITY",
-      "originStation": "豐富",
-      "destinationStation": "竹南",
-      "departureTime": "22:49",
-      "arrivalTime": "22:59",
-      "delayMinutes": 1,
-      "platformHint": "豐富站北上月台",
-      "stops": [
-        {
-          "station": "造橋",
-          "arrivalTime": "22:53",
-          "departureTime": "22:54"
-        },
-        {
-          "station": "竹南",
-          "arrivalTime": "22:59",
-          "departureTime": "23:01"
-        },
-        {
-          "station": "豐富",
-          "arrivalTime": "22:48",
-          "departureTime": "22:49"
-        }
-      ]
-    },
-    {
-      "trainNo": "區間 2274",
-      "system": "TRA",
-      "routeId": "TXG_TRA_NORTH",
-      "mode": "TO_CITY",
-      "originStation": "新烏日",
-      "destinationStation": "台中",
-      "departureTime": "21:38",
-      "arrivalTime": "21:50",
-      "delayMinutes": 1,
-      "platformHint": "新烏日北上月台",
-      "stops": [
-        {
-          "station": "大慶",
-          "arrivalTime": "21:44",
-          "departureTime": "21:44"
-        },
-        {
-          "station": "五權",
-          "arrivalTime": "21:47",
-          "departureTime": "21:47"
-        },
-        {
-          "station": "台中",
-          "arrivalTime": "21:50",
-          "departureTime": "21:51"
-        },
-        {
-          "station": "太原",
-          "arrivalTime": "21:56",
-          "departureTime": "21:57"
-        },
-        {
-          "station": "松竹",
-          "arrivalTime": "21:59",
-          "departureTime": "22:00"
-        },
-        {
-          "station": "豐原",
-          "arrivalTime": "22:12",
-          "departureTime": "22:13"
-        },
-        {
-          "station": "新烏日",
-          "arrivalTime": "21:33",
-          "departureTime": "21:38"
-        }
-      ]
-    },
-    {
-      "trainNo": "區間 2274",
-      "system": "TRA",
-      "routeId": "TXG_TRA_SOUTH",
-      "mode": "TO_HSR",
-      "originStation": "彰化",
-      "destinationStation": "新烏日",
-      "departureTime": "21:22",
-      "arrivalTime": "21:33",
-      "delayMinutes": 1,
-      "platformHint": "北上往新烏日月台",
-      "stops": [
-        {
-          "station": "成功",
-          "arrivalTime": "21:28",
-          "departureTime": "21:29"
-        },
-        {
-          "station": "彰化",
-          "arrivalTime": "21:20",
-          "departureTime": "21:22"
-        },
-        {
-          "station": "員林",
-          "arrivalTime": "21:02",
-          "departureTime": "21:03"
-        },
-        {
-          "station": "新烏日",
-          "arrivalTime": "21:33",
-          "departureTime": "21:38"
-        }
-      ]
-    },
-    {
-      "trainNo": "區間 2275",
+      "trainNo": "區間 2273",
       "system": "TRA",
       "routeId": "MLI_TRA_SOUTH",
       "mode": "TO_CITY",
@@ -12657,7 +12496,7 @@
       ]
     },
     {
-      "trainNo": "區間 2275",
+      "trainNo": "區間 2273",
       "system": "TRA",
       "routeId": "MLI_TRA_NORTH",
       "mode": "TO_HSR",
@@ -12686,7 +12525,7 @@
       ]
     },
     {
-      "trainNo": "區間 2275",
+      "trainNo": "區間 2273",
       "system": "TRA",
       "routeId": "TXG_TRA_NORTH",
       "mode": "TO_HSR",
@@ -12735,7 +12574,7 @@
       ]
     },
     {
-      "trainNo": "區間 2275",
+      "trainNo": "區間 2273",
       "system": "TRA",
       "routeId": "TXG_TRA_SOUTH",
       "mode": "TO_CITY",
@@ -12760,6 +12599,152 @@
           "station": "新烏日",
           "arrivalTime": "23:45",
           "departureTime": "23:46"
+        }
+      ]
+    },
+    {
+      "trainNo": "區間 2274",
+      "system": "TRA",
+      "routeId": "MLI_TRA_SOUTH",
+      "mode": "TO_HSR",
+      "originStation": "苗栗",
+      "destinationStation": "豐富",
+      "departureTime": "22:45",
+      "arrivalTime": "22:48",
+      "delayMinutes": 0,
+      "platformHint": "北上往豐富方向月台",
+      "stops": [
+        {
+          "station": "苗栗",
+          "arrivalTime": "22:44",
+          "departureTime": "22:45"
+        },
+        {
+          "station": "銅鑼",
+          "arrivalTime": "22:34",
+          "departureTime": "22:35"
+        },
+        {
+          "station": "三義",
+          "arrivalTime": "22:28",
+          "departureTime": "22:29"
+        },
+        {
+          "station": "豐富",
+          "arrivalTime": "22:48",
+          "departureTime": "22:49"
+        }
+      ]
+    },
+    {
+      "trainNo": "區間 2274",
+      "system": "TRA",
+      "routeId": "MLI_TRA_NORTH",
+      "mode": "TO_CITY",
+      "originStation": "豐富",
+      "destinationStation": "竹南",
+      "departureTime": "22:49",
+      "arrivalTime": "22:59",
+      "delayMinutes": 0,
+      "platformHint": "豐富站北上月台",
+      "stops": [
+        {
+          "station": "造橋",
+          "arrivalTime": "22:53",
+          "departureTime": "22:54"
+        },
+        {
+          "station": "竹南",
+          "arrivalTime": "22:59",
+          "departureTime": "23:01"
+        },
+        {
+          "station": "豐富",
+          "arrivalTime": "22:48",
+          "departureTime": "22:49"
+        }
+      ]
+    },
+    {
+      "trainNo": "區間 2274",
+      "system": "TRA",
+      "routeId": "TXG_TRA_NORTH",
+      "mode": "TO_CITY",
+      "originStation": "新烏日",
+      "destinationStation": "台中",
+      "departureTime": "21:38",
+      "arrivalTime": "21:50",
+      "delayMinutes": 0,
+      "platformHint": "新烏日北上月台",
+      "stops": [
+        {
+          "station": "大慶",
+          "arrivalTime": "21:44",
+          "departureTime": "21:44"
+        },
+        {
+          "station": "五權",
+          "arrivalTime": "21:47",
+          "departureTime": "21:47"
+        },
+        {
+          "station": "台中",
+          "arrivalTime": "21:50",
+          "departureTime": "21:51"
+        },
+        {
+          "station": "太原",
+          "arrivalTime": "21:56",
+          "departureTime": "21:57"
+        },
+        {
+          "station": "松竹",
+          "arrivalTime": "21:59",
+          "departureTime": "22:00"
+        },
+        {
+          "station": "豐原",
+          "arrivalTime": "22:12",
+          "departureTime": "22:13"
+        },
+        {
+          "station": "新烏日",
+          "arrivalTime": "21:33",
+          "departureTime": "21:38"
+        }
+      ]
+    },
+    {
+      "trainNo": "區間 2274",
+      "system": "TRA",
+      "routeId": "TXG_TRA_SOUTH",
+      "mode": "TO_HSR",
+      "originStation": "彰化",
+      "destinationStation": "新烏日",
+      "departureTime": "21:22",
+      "arrivalTime": "21:33",
+      "delayMinutes": 0,
+      "platformHint": "北上往新烏日月台",
+      "stops": [
+        {
+          "station": "成功",
+          "arrivalTime": "21:28",
+          "departureTime": "21:29"
+        },
+        {
+          "station": "彰化",
+          "arrivalTime": "21:20",
+          "departureTime": "21:22"
+        },
+        {
+          "station": "員林",
+          "arrivalTime": "21:02",
+          "departureTime": "21:03"
+        },
+        {
+          "station": "新烏日",
+          "arrivalTime": "21:33",
+          "departureTime": "21:38"
         }
       ]
     },
@@ -14623,7 +14608,7 @@
       "destinationStation": "新烏日",
       "departureTime": "22:31",
       "arrivalTime": "22:42",
-      "delayMinutes": 4,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -14672,7 +14657,7 @@
       "destinationStation": "成功",
       "departureTime": "22:43",
       "arrivalTime": "22:47",
-      "delayMinutes": 4,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -17743,7 +17728,7 @@
       "destinationStation": "新烏日",
       "departureTime": "17:50",
       "arrivalTime": "18:01",
-      "delayMinutes": 6,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -17792,7 +17777,7 @@
       "destinationStation": "彰化",
       "departureTime": "18:02",
       "arrivalTime": "18:12",
-      "delayMinutes": 6,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -17826,7 +17811,7 @@
       "destinationStation": "新烏日",
       "departureTime": "18:31",
       "arrivalTime": "18:42",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -17875,7 +17860,7 @@
       "destinationStation": "彰化",
       "departureTime": "18:43",
       "arrivalTime": "18:53",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -17909,7 +17894,7 @@
       "destinationStation": "新烏日",
       "departureTime": "19:38",
       "arrivalTime": "19:50",
-      "delayMinutes": 2,
+      "delayMinutes": 0,
       "platformHint": "南下往新烏日月台",
       "stops": [
         {
@@ -17958,7 +17943,7 @@
       "destinationStation": "彰化",
       "departureTime": "20:02",
       "arrivalTime": "20:12",
-      "delayMinutes": 2,
+      "delayMinutes": 0,
       "platformHint": "新烏日南下月台",
       "stops": [
         {
@@ -21551,7 +21536,7 @@
       "destinationStation": "沙崙",
       "departureTime": "22:20",
       "arrivalTime": "22:44",
-      "delayMinutes": 1,
+      "delayMinutes": 0,
       "platformHint": "往沙崙方向月台",
       "stops": [
         {
